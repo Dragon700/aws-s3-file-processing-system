@@ -52,16 +52,17 @@ Screenshots of the AWS configuration and test results are available in the [`scr
 
 ```text
 aws-s3-file-processing-system/
+├── README.md
+├── architecture.md
 ├── src/
 │   └── lambda_function.py
-├── screenshots/
-│   ├── 01-lambda-sqs-trigger.png
-│   ├── 02-s3-event-notification.png
-│   ├── 03-sqs-redrive-policy.png
-│   ├── 04-dlq-failed-message.png
-│   ├── 05-dynamodb-processed-file.png
-│   └── 06-cloudwatch-success-logs.png
-└── README.md
+└── screenshots/
+    ├── 01-lambda-sqs-trigger.png
+    ├── 02-s3-event-notification.png
+    ├── 03-sqs-redrive-policy.png
+    ├── 04-dlq-failed-message.png
+    ├── 05-dynamodb-processed-file.png
+    └── 06-cloudwatch-success-logs.png
 ```
 
 ## Cost and Cleanup
